@@ -1,0 +1,22 @@
+{
+  "name": "podTestLibraray",
+  "version": "0.1.0",
+  "summary": "A short description of podTestLibraray.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tanyong/podTestLibraray",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tanyong": "tanyong@thinkive.com"
+  },
+  "source": {
+    "git": "https://github.com/tanyong/podTestLibraray.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "podTestLibraray/Classes/**/*"
+}
