@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'podTestLibraray'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of podTestLibraray.'
+  s.version          = '0.0.2'
+  s.summary          = 'first pod'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/tanyong/podTestLibraray'
+  s.homepage         = 'https://baidu.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'tanyong' => 'tanyong@thinkive.com' }
-  s.source           = { :git => 'https://github.com/tanyong/podTestLibraray.git', :tag => s.version.to_s }
+  s.author           = { 'tanyong' => 'ettanyong@163.com' }
+  s.source           = { :git => 'https://github.com/trayKBE/myspec.git', :tag => '0.0.1' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'podTestLibraray' => ['podTestLibraray/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.public_header_files = 'Pod/Classes/**/*.h'
+   s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

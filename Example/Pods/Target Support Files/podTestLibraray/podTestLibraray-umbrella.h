@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "JsonUtils.h"
 
 FOUNDATION_EXPORT double podTestLibrarayVersionNumber;
 FOUNDATION_EXPORT const unsigned char podTestLibrarayVersionString[];
